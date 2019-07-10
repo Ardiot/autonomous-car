@@ -1,0 +1,21 @@
+hacer un grafo conlos diferentes sitios del huerto 
+
+cuando esta en un nodo , al ir al siguiente le dara sus coordenadas y entre el magnetrometro y el gps girara hasta encararse y tirara recto hasta el 
+
+el problema sera como encararse de un vertice a otro , como girara lo suficeinte hasta que se quede de frente ?????
+
+una manera puede ser , que cuando este en un vertice , me mueva un poco para delante , y vuelva donde estoy , así se donde estoy y cuanto debo girar 
+en otras palabras triangulo mi posicion , tengo en el que estoy , al que voy , y al que me he movido justo . así puedo ir corrigiendo la direccion en marcha 
+joder que buen aidea , casi se puede empezar siempre hacia delante y he ir mirando de donde vengo y a donde voy e ir girando la dirreccion 
+
+lo que hara guardar donde este , el punto al que se haya movido y al que va . Entonces lo que habria que hacer es hayar 
+la proyeccion del segmento estoy_memovido en el segmento _estoy_final y asi tenemos un triangulo rectangulo y hacemos 
+el arcoseno yo creo , porque es el cateto contiguo entre la hipotenusa , que es el segmento . EL PROBLEMA  es que 
+cuando este mirando en el sentido contrario pues no va a saber hacer esa proyeccion no se , me tengo que mirar los ejercicios
+del bachillerato que eran así 
+
+Quedaria bien hacer un pid ya que así no iria arrancando y frenando todo el rato , si no incremenado la velocidad en lado 
+o en otro . Aunqeu shi el problema es que cuando esta mirando en sentido contrario, esbuelto , pues tendria que dar 
+la vuelta de golpe 
+
+El problema es la horientacion , para que le mire de cara , o por lo menos que NO este a su espalda , ESE ES EL PROBLEMA
